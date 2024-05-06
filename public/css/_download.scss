@@ -1,0 +1,41 @@
+.download {
+    &_item {
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 15px rgba(127, 226, 228, 30%);
+        padding: 15px 25px;
+        margin-bottom: 30px;
+    }
+    &_text {
+        width: calc(100% - 45px);
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+    &_icon {
+        display: block;
+        width: 45px;
+        >svg {
+            width: 45px;
+            height: 45px;
+            path {
+                transition: $transition;
+            }
+        }
+        &:hover {
+            >svg {
+                path {
+                    fill: #31D8DB;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &_item {
+            padding: 15px;
+        }
+    }
+}

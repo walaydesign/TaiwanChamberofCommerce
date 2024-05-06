@@ -1,0 +1,165 @@
+.banner-certificate {
+    position: relative;
+    width: 100%;
+    padding-bottom: 37%;
+    margin-bottom: 60px;
+    &_pic {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        &-m {
+            width: 100%;
+        }
+    }
+    &_text {
+        color: #fff;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        position: absolute;
+        width: 40%;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            letter-spacing: 0.03em;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        background-image: url(../img/banner-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
+        &_text {
+            width: 90%;
+            position: static;
+            padding-top: 120px;
+            padding-bottom: 40px;
+            margin: 0 auto;
+            transform: none;
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.certificate-form {
+    padding: 70px 60px;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    h2 {
+        margin-bottom: 25px;
+        color: #126A96;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .row {
+        margin-left: -17px;
+        margin-right: -17px;
+        >div {
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+    }
+    .input-wrap {
+        margin-bottom: 30px;
+    }
+    button {
+        width: 145px;
+        border-radius: 100px;
+        padding: 12px 0;
+        color: #fff;
+        background: linear-gradient(to right, #7DC1F2 0%, #668CEE 100%);
+        border: 0;
+        box-shadow: 0 4px 20px rgba(125px, 193px, 242px, 0.6);
+        text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        margin: 0 auto;
+        transition: $transition;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+}
+
+.btn-apply {
+    width: 185px;
+    height: 66px;
+    border-radius: 100px;
+    background-color: #31D8DB;
+    box-shadow: 0 2px 15px rgba(49, 216, 219, 0.5);
+    transition: $transition;
+    span {
+        color: #fff;
+        font-size: 22px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+        margin-right: 8px;
+    }
+    img {
+        width: 24px;
+    }
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.mockup {
+    width: 100%;
+    position: relative;
+    >img {
+        width: 100%;
+    }
+    &_text {
+        position: absolute;
+        color: #333;
+        font-size: 1.6vw;
+    }
+    &_line {
+        &_1 {
+            left: 28%;
+            top: 40.5%;
+        }
+        &_2 {
+            left: 17%;
+            top: 44.8%;
+        }
+        &_3 {
+            left: 28%;
+            top: 48.1%;
+        }
+        &_4 {
+            left: 20%;
+            top: 50.6%;
+        }
+        &_5 {
+            left: 31%;
+            top: 52.8%;
+        }
+        &_6 {
+            left: 20%;
+            top: 55.3%;
+        }
+        &_7 {
+            left: 20%;
+            top: 57.7%;
+        }
+    }
+}
