@@ -585,6 +585,44 @@ input[type="number"] {
   border-color: #fff;
 }
 
+.btn-top {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #22DDE0 0%, #33D4F8 100%);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-top svg {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-top svg path {
+  stroke: #fff;
+}
+
+.btn-top:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .banner {
   position: relative;
   margin-bottom: 20px;
@@ -1183,6 +1221,30 @@ input[type="number"] {
 .mockup {
   width: 100%;
   position: relative;
+}
+
+.mockup_date {
+  background-color: #fff;
+  position: absolute;
+  top: 78%;
+  left: 20%;
+  font-size: 1.6vw;
+  padding: 0.5vw 1vw;
+}
+
+.mockup_content {
+  position: absolute;
+  background-color: #fff;
+  height: 25%;
+  width: 100%;
+  left: 0;
+  top: 40.5%;
+  padding: 0 5%;
+}
+
+.mockup_content td {
+  font-size: 1.6vw;
+  padding: 3px 20px;
 }
 
 .mockup > img {

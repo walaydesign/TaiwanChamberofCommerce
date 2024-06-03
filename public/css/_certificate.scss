@@ -124,6 +124,27 @@
 .mockup {
     width: 100%;
     position: relative;
+    &_date {
+        background-color: #fff;
+        position: absolute;
+        top: 78%;
+        left: 20%;
+        font-size: 1.6vw;
+        padding: 0.5vw 1vw;
+    }
+    &_content {
+        position: absolute;
+        background-color: #fff;
+        height: 25%;
+        width: 100%;
+        left: 0;
+        top: 40.5%;
+        padding: 0 5%;
+        td {
+            font-size: 1.6vw;
+            padding: 3px 20px;
+        }
+    }
     >img {
         width: 100%;
     }

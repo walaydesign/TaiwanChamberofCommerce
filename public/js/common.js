@@ -14,3 +14,7 @@ $(window).on("scroll resize", function(){
         $(".header").removeClass("active");
     }
 })
+
+$(".btn-top").click(function(){
+    $("html, body").animate({scrollTop: 0},300);
+})
