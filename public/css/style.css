@@ -383,6 +383,10 @@ input[type="number"] {
   color: #6A6A6A;
 }
 
+.article_content img {
+  max-width: 100%;
+}
+
 .article .example {
   font-size: 14px;
   padding: 2px 10px;
@@ -1221,6 +1225,10 @@ input[type="number"] {
 .mockup {
   width: 100%;
   position: relative;
+}
+
+.mockup * {
+  font-family: "Microsoft Sans serif";
 }
 
 .mockup_date {

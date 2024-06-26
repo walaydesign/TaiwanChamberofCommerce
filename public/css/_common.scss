@@ -338,6 +338,9 @@ input[type="number"] {
         &.en {
             color: #6A6A6A;
         }
+        img {
+            max-width: 100%;
+        }
     }
     .example {
         font-size: 14px;

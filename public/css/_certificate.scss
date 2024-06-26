@@ -124,6 +124,9 @@
 .mockup {
     width: 100%;
     position: relative;
+    * {
+        font-family: "Microsoft Sans serif";
+    }
     &_date {
         background-color: #fff;
         position: absolute;
