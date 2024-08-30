@@ -345,6 +345,18 @@ input[type="number"] {
   }
 }
 
+.common-title {
+  margin: 0 auto 30px;
+  font-weight: 700;
+  color: #126a96;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #126a96;
+  font-size: 36px;
+}
+
 .article > .row {
   margin-left: -36px;
   margin-right: -36px;

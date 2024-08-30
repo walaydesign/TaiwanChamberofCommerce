@@ -307,6 +307,16 @@ input[type="number"] {
     }
 }
 
+.common-title {
+    margin: 0 auto 30px;
+    font-weight: 700;
+    color: $primary-color;
+    width: fit-content;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $primary-color;
+    font-size: 36px;
+}
+
 .article {
     >.row {
         margin-left: -36px;
