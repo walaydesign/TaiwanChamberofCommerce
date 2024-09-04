@@ -348,12 +348,7 @@ input[type="number"] {
 .common-title {
   margin: 0 auto 30px;
   font-weight: 700;
-  color: #126a96;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #126a96;
+  text-align: center;
   font-size: 36px;
 }
 
@@ -675,7 +670,7 @@ input[type="number"] {
 
 .banner {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .banner_swiper_item {
@@ -1123,7 +1118,7 @@ input[type="number"] {
 .banner-certificate {
   position: relative;
   width: 100%;
-  padding-bottom: 37%;
+  padding-bottom: 40%;
   margin-bottom: 60px;
 }
 
